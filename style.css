@@ -11,6 +11,9 @@ body{
 
 nav ul{
     list-style-type: none;
+    position:fixed;
+    top:50;
+    width:100%;
 }
 
 nav ul li{
@@ -26,7 +29,8 @@ nav ul li a{
 }
 
 .Construction{
-    background-color: #E6F0FA;
+    background-color: #F5DEB3;
+    font-display: bold;
     font-size: 4em;
     text-align: center;
     padding: 250px;
