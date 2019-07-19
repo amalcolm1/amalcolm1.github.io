@@ -10,9 +10,12 @@ body{
     font-size: 20px; 
 }
 
+
 nav ul{
     list-style-type: none;
-    background-color: #990000;
+    background-color:#990000;
+    overflow:hidden;
+
 }
 
 nav ul li{
