@@ -7,22 +7,28 @@ body{
     border: 1px solid black;
     padding: 20px;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 20px; 
 }
 
 nav ul{
     list-style-type: none;
+    background-color: #990000;
 }
 
 nav ul li{
-    float: left;
+    float:left;
 }
 
 nav ul li a{
-    padding: 6px 13px;
-    background-color: #990000;
+    display: block;
+    padding: 10px 16px;
     color: white;
     text-decoration: none;
-    text-align:center
+    text-align: center;
+}
+
+nav ul li a:hover{
+    background-color: #610303
 }
 
 .Construction{
