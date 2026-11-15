@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Agents</title>
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .agents {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 8px 20px 60px;
+    }
+    .agents .intro {
+      font-size: 18px;
+      text-align: center;
+      line-height: 1.6;
+      margin: 28px 0 8px;
+    }
+    .agents h2 {
+      border-bottom: 2px solid #990000;
+      padding-bottom: 6px;
+      margin-top: 36px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 16px;
+      margin-top: 16px;
+    }
+    .card {
+      background: #fffdf6;
+      border: 1px solid #d9c48a;
+      border-left: 5px solid #990000;
+      border-radius: 10px;
+      padding: 16px 18px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    }
+    .card h3 {
+      margin: 0 0 8px;
+      font-size: 20px;
+    }
+    .time {
+      display: inline-block;
+      background: #990000;
+      color: #fff;
+      font-size: 13px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 3px 10px;
+      border-radius: 20px;
+      margin-bottom: 10px;
+    }
+    .card p {
+      margin: 0;
+      line-height: 1.55;
+    }
+    .back {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .credit {
+      text-align: center;
+      color: #6b5d3f;
+      font-size: 14px;
+      margin-top: 12px;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="welcome">
+    My Agents
+  </header>
+
+  <nav>
+    <ul>
+      <li>
+        <a href="/pages/index.html">Home</a>
+      </li>
+      <li>
+        <a href="/pages/projects.html">My Projects</a>
+      </li>
+      <li>
+        <a href="/Pages/sports.html">Sports Pictures</a>
+      </li>
+      <li>
+        <a href="/Pages/socials.html">My Social Medias</a>
+      </li>
+    </ul>
+  </nav>
+
+  <main class="agents">
+    <p class="intro">
+      The automated routines that keep my days running: networking, habits,
+      meals, and planning, all handled on schedule.
+    </p>
+
+    <h2>Every day</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Morning Networking Briefing</h3>
+        <span class="time">8:30 AM</span>
+        <p>Two network people and two homies to reach out to, picked by tier and longest since contact, plus two todos, the week plan, calendar conflicts, trip prep, consistencies, birthdays, an Outlook summary, and today&rsquo;s workout. Weekends get a suggested schedule for the day instead.</p>
+      </div>
+      <div class="card">
+        <h3>Lunchtime Summary</h3>
+        <span class="time">12:00 PM</span>
+        <p>Who&rsquo;s left to reach out to today, plus a couple of quick calls or texts to knock out over lunch.</p>
+      </div>
+      <div class="card">
+        <h3>Evening Daily Wrap-Up</h3>
+        <span class="time">9:45 PM</span>
+        <p>Closes out the day: complete today&rsquo;s consistencies and log who you reached out to.</p>
+      </div>
+      <div class="card">
+        <h3>Nightly CRM Sync</h3>
+        <span class="time">~11:52 PM</span>
+        <p>Runs silently while you sleep: updates Last Interaction Dates from your texts, and adds new flights and trips from email to your calendar.</p>
+      </div>
+    </div>
+
+    <h2>Weekdays (Mon&ndash;Fri)</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Leave Work at 4</h3>
+        <span class="time">3:45 PM</span>
+        <p>A nudge to wrap up and head out in time for the 4:30 workout.</p>
+      </div>
+      <div class="card">
+        <h3>Dinner Planning</h3>
+        <span class="time">4:05 PM</span>
+        <p>A quick chat about what to eat tonight.</p>
+      </div>
+      <div class="card">
+        <h3>Dinner Summary</h3>
+        <span class="time">7:00 PM</span>
+        <p>Remaining reach-outs and quick todos for the evening block.</p>
+      </div>
+    </div>
+
+    <h2>Weekly</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Plan My Week</h3>
+        <span class="time">Sundays, 4:00 PM</span>
+        <p>Plans the week ahead: dinners, the grocery list, todos, and workouts mapped to days.</p>
+      </div>
+    </div>
+
+    <p class="back"><a href="/">Back to home</a></p>
+    <p class="credit">Run by El Mago, my personal agent.</p>
+  </main>
+</body>
+</html>
